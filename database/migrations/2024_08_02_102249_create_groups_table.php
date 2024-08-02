@@ -33,7 +33,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('group_user');
+        Schema::dropIfExists('groups');
         Schema::dropIfExists('groups');
     }
 };
